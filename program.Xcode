@@ -1,0 +1,4 @@
+func updateTimer(){
+        counter = counter + 1 
+        timelabel.text = String(format: "%.If", counter)
+}
